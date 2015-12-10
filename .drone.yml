@@ -1,0 +1,23 @@
+build:
+  image: golang:1.5
+  commands:
+    - make deps
+    - make build
+    - make test
+
+publish:
+  docker:
+    username: drone
+    password: $$DOCKER_PASS
+    email: $$DOCKER_EMAIL
+    repo: plugins/drone-scalingo
+    when:
+      branch: master
+
+plugin:
+  name: Scalingo
+  desc: Deploys or updates a project on Scalingo
+  type: deploy
+  image: plugins/drone-scalingo
+  labels:
+    - scalingo
