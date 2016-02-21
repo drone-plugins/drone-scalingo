@@ -4,7 +4,7 @@
 [![Coverage Status](https://aircover.co/badges/drone-plugins/drone-scalingo/coverage.svg)](https://aircover.co/drone-plugins/drone-scalingo)
 [![](https://badge.imagelayers.io/plugins/drone-scalingo:latest.svg)](https://imagelayers.io/?images=plugins/drone-scalingo:latest 'Get your own badge on imagelayers.io')
 
-Drone plugin to deploy or update a project on Scalingo
+Drone plugin to deploy or update a project on Scalingo. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
 ## Binary
 
