@@ -7,7 +7,6 @@
 [![](https://images.microbadger.com/badges/image/plugins/scalingo.svg)](https://microbadger.com/images/plugins/scalingo "Get your own image badge on microbadger.com")
 [![Go Doc](https://godoc.org/github.com/drone-plugins/drone-scalingo?status.svg)](http://godoc.org/github.com/drone-plugins/drone-scalingo)
 [![Go Report](https://goreportcard.com/badge/github.com/drone-plugins/drone-scalingo)](https://goreportcard.com/report/github.com/drone-plugins/drone-scalingo)
-[![](https://images.microbadger.com/badges/image/plugins/scalingo.svg)](https://microbadger.com/images/plugins/scalingo "Get your own image badge on microbadger.com")
 
 Drone plugin to deploy or update a project on Scalingo. For the usage information and a listing of the available options please take a look at [the docs](DOCS.md).
 
