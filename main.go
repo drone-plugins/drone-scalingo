@@ -12,11 +12,11 @@ import (
 )
 
 var (
-	buildCommit string
+	version = "unknown"
 )
 
 func main() {
-	fmt.Printf("Drone Scalingo Plugin built from %s\n", buildCommit)
+	fmt.Printf("Drone Scalingo Plugin built from %s\n", version)
 
 	workspace := drone.Workspace{}
 	repo := drone.Repo{}
