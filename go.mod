@@ -1,7 +1,7 @@
 module github.com/drone-plugins/drone-scalingo
 
 require (
-	github.com/appleboy/drone-git-push v0.0.0-20160731181400-e2e936331fff
+	github.com/appleboy/drone-git-push v0.0.0-20160731161430-e2e936331fff
 	github.com/drone/drone-go v0.0.0-20160502151758-eaa41f7836a1
 	github.com/golang/protobuf v1.2.0
 	golang.org/x/net v0.0.0-20181017193950-04a2e542c03f
